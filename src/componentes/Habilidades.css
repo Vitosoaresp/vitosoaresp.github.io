@@ -1,0 +1,27 @@
+.habilidades-container {
+  background-color: #131316;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 40px;
+}
+
+.habilidades-container .card-group {
+  max-width: 250px;
+  margin: 0 0 15px;
+}
+
+.habilidades-container h2 {
+  display: block;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.icon-image {
+  border-radius: 25px;
+  width: 50px;
+}

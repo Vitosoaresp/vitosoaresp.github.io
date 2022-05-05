@@ -1,0 +1,22 @@
+.footer-container {
+  align-items: flex-start;
+  background-color: #26262C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.footer-container div:nth-child( 1 ) {
+  padding-top: 15px;
+}
+
+.footer-container div p, .footer-container div p svg {
+  color: white;
+  font-size: 10px;
+}
+
+.footer-container a svg {
+  font-size: 40px;
+}

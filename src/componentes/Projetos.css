@@ -1,0 +1,27 @@
+.projetos-container {
+  align-items: center;
+  align-content: space-around;
+  background-color: #1C1C21;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.projetos-container h3 {
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+.projetos-container .card-group {
+  mix-width: 40%;
+  margin: 50px;
+}
+
+.projetos-container .card-group .card img {
+  width: 200px;
+}
