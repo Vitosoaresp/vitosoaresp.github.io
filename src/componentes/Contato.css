@@ -47,3 +47,14 @@
 .contato-container .card .card-body .card-text {
   color: grey;
 } 
+
+@media screen and (max-width: 600px ) {
+  
+  .contato-container {
+    align-items: center;
+  }
+
+  .contato-container .card {
+    min-width: 222px;
+  }
+}
