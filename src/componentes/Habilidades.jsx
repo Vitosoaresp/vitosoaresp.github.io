@@ -15,6 +15,7 @@ class Habilidades extends React.Component {
           <Card>
             <CardImg src={ htmlImg } alt="icon-htm" className="icon-image"/>
             <CardBody>
+              <hr />
               <CardTitle tag="h5">HTML 5</CardTitle>
               <CardText>
                 HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
@@ -29,6 +30,7 @@ class Habilidades extends React.Component {
           <Card>
             <CardImg src={ css } alt="icon-css" className="icon-image"/>
             <CardBody>
+              <hr />
               <CardTitle tag="h5">CSS 3</CardTitle>
               <CardText>
                 CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web.
@@ -43,6 +45,7 @@ class Habilidades extends React.Component {
           <Card>
             <CardImg src={ js } alt="icon-js" className="icon-image"/>
             <CardBody>
+              <hr />
               <CardTitle tag="h5">Java Script</CardTitle>
               <CardText>
                 JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
@@ -57,6 +60,7 @@ class Habilidades extends React.Component {
           <Card>
             <CardImg src={ reactImg } alt="icon-css" className="icon-image"/>
             <CardBody>
+              <hr />
               <CardTitle tag="h5">React</CardTitle>
               <CardText>
                 O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
