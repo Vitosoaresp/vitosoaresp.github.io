@@ -17,11 +17,47 @@
   padding: 30px;
 }
 
-.projetos-container .card-group {
-  mix-width: 40%;
-  margin: 50px;
+.projetos-grid {
+  width: 100%;
 }
 
-.projetos-container .card-group .card img {
-  width: 200px;
+.accordion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.accordion-item {
+  width: 40%;
+}
+
+.accordion-button::after {
+  align-self: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.accordion-button img {
+  width: 100%;
+}
+
+.btn-project {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-project a {
+  text-decoration: none;
+  color: #fffffe;
+  background-color: #7f5af0;
+  padding: 10px 30px;
+  border-radius: 0.25rem;
+}
+
+.btn-project a:hover {
+  color: #fffffe;
+  /* opacity: 0.8; */
+  background-color: #6c43e9;
 }
