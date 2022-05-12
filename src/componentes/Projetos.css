@@ -27,8 +27,17 @@
   justify-content: space-around;
 }
 
+.accordion-header button {
+  padding: 0;
+}
+
 .accordion-item {
-  width: 40%;
+  border: -1px;
+  width: 35%;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
 }
 
 .accordion-button::after {
