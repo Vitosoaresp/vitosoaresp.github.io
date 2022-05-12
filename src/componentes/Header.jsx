@@ -22,10 +22,19 @@ class Header extends React.Component {
       <header>
         <img src={ logo } alt="logo" />
         <nav>
-          <a href="#sobre">Sobre</a>
-          <a href="#habilidades">Habilidades</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#contato">Contato</a>
+          <div>
+            <a href="#sobre">Sobre</a>
+          </div>
+          <div>
+            <a href="#habilidades">Habilidades</a>
+          </div>
+          <div>
+            <a href="#projetos">Projetos</a>
+          </div>
+          <div>
+            <a href="#contato">Contato</a>
+          </div>
+         
         </nav>
         <div className="nav-smartphone">
           <Navbar collapseOnSelect expand="lg" bg="#26262C" variant="dark">
