@@ -1,11 +1,20 @@
 * {
-  padding:0;
-  margin:0;
-  vertical-align:baseline;
-  list-style:none;
-  border:0;
-  }
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
 
 body {
   box-sizing: border-box;
-}  
+}
+
+:root {
+  --primary-background: #26262c;
+  --secundary-background: #131316;
+  --btn-github: rgb(130, 87, 230);
+  --btn-github-hover: #6e3ce2;
+  --headline: #fffffe;
+  --paragraph: white;
+}
