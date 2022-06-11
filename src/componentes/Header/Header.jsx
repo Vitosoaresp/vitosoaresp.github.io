@@ -20,18 +20,10 @@ function Header() {
         </button>
       </header>
       <div className="menu-smartphone" style={ {height: menuVisivel ? '120px' : '0'} }>
-        <button type="button" className="btn-link" onClick={() => setMenuVisivel(false)}>
-          <a href='#sobre'>Sobre</a>
-        </button>
-        <button type="button" className="btn-link" onClick={() => setMenuVisivel(false)}>
-          <a href='#habilidades'>Habilidades</a>
-        </button>
-        <button type="button" className="btn-link" onClick={() => setMenuVisivel(false)}>
-          <a href='#projetos'>Projetos</a>
-        </button>
-        <button type="button" className="btn-link" onClick={() => setMenuVisivel(false)}>
-          <a href='#contato'>Contato</a>
-        </button>
+        <a href='#sobre' onClick={() => setMenuVisivel(false)}>Sobre</a>
+        <a href='#habilidades' onClick={() => setMenuVisivel(false)}>Habilidades</a>
+        <a href='#projetos' onClick={() => setMenuVisivel(false)}>Projetos</a>
+        <a href='#contato' onClick={() => setMenuVisivel(false)}>Contato</a>
       </div>
     </>
   );

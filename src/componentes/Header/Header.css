@@ -47,18 +47,12 @@ nav {
   transition: height 0.6s ease-in-out;
 }
 
-.btn-link {
-  border: none;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.menu-smartphone .btn-link a {
+.menu-smartphone a {
   color: var(--headline);
-  text-decoration: none;
+  text-decoration: unset;
 }
 
-.menu-smartphone .btn-link a:hover, nav a:hover {
+.menu-smartphone a:hover, nav a:hover {
   color: var(--btn-github);
 }
 
