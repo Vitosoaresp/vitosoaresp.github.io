@@ -17,11 +17,17 @@
   display: block;
   color: white;
   padding: 50px;
+  font-weight: bold;
   text-align: center;
   width: 100%;
 }
 
-.icon-image {
-  border-radius: 25px;
-  width: 50px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ancora {
+  text-decoration: none;
 }

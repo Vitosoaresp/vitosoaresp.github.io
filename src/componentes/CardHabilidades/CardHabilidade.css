@@ -1,0 +1,41 @@
+.habilidadeCard {
+  align-items: flex-start;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 277px;
+  margin: 10px;
+  transition: colors 1s;
+  padding: 10px;
+  width: 360px;
+}
+
+.habilidadeCard:hover {
+  border: 1px solid var(--btn-github);
+}
+
+.habilidadeCard:hover > .cardProfile svg {
+  color: var(--btn-github);
+  font-size: 5.2rem;
+}
+
+.cardProfile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.cardProfile svg {
+  font-size: 5rem;
+  transition: all 0.4s;
+}
+
+.cardNome {
+  margin-top: 10px;
+  font-weight: 500;
+}
