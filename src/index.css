@@ -14,7 +14,7 @@ body {
 :root {
   --primary-background: #26262c;
   --secundary-background: #131316;
-  --btn-github: rgb(130, 87, 230);
+  --btn-github: #8257e6;
   --btn-github-hover: #6e3ce2;
   --headline: #fffffe;
   --paragraph: white;
