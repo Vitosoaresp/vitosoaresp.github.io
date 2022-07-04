@@ -1,5 +1,6 @@
 .habilidadeCard {
   align-items: flex-start;
+  background-color: #1c1c21;
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   border-radius: 1rem;
   color: white;
@@ -7,10 +8,20 @@
   flex-direction: column;
   justify-content: center;
   height: 277px;
-  margin: 10px;
+  margin: 15px;
+  min-width: 222px;
   transition: colors 1s;
   padding: 10px;
-  width: 360px;
+  width: 30%;
+}
+
+.ancora {
+  margin: 15px;
+  width: 30%;
+}
+
+.ancora .habilidadeCard {
+  width: 100%;
 }
 
 .habilidadeCard:hover {
@@ -30,6 +41,12 @@
   margin: 0 auto;
 }
 
+.cardProfile a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .cardProfile svg {
   font-size: 5rem;
   transition: all 0.4s;
@@ -38,4 +55,19 @@
 .cardNome {
   margin-top: 10px;
   font-weight: 500;
+}
+
+.cardDesc {
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .habilidadeCard {
+    height: auto;
+  }
+
+  .cardDesc {
+    font-size: 16px;
+  }
 }

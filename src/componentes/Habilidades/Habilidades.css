@@ -26,8 +26,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.ancora {
-  text-decoration: none;
+  height: 100%;
 }

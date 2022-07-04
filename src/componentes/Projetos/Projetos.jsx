@@ -1,73 +1,103 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { VscGithubInverted } from 'react-icons/vsc';
+import { GoDeviceDesktop } from 'react-icons/go';
 import emBreve from '../../fotos/embreve.PNG';
-import todolistImg from '../../fotos/todolist.jpg';
+import onlineStore from '../../fotos/online-store.png';
 import './Projetos.css';
-import { CgArrowDownO } from 'react-icons/cg';
 
 function Projetos() {
-  const [isCollapse, setCollapsed] = useState(['']);
-
   return (
-    <div className='projetos-container' id='projetos'>
+    <div className="projetos-container" id="projetos">
       <h3>Meus Projetos</h3>
       <hr />
-      <div className='projetos-grid'>
-        <div className='projeto-item'>
-          <div className='projeto-item-img'>
-            <img src={todolistImg} alt='todolist exemplo' />
-            <button
-              type='button'
-              className='btn-arrow'
-              onClick={() => setCollapsed(isCollapse)}
-            >
-              <CgArrowDownO />
-            </button>
+      <div className="projetos-grid">
+        <div className="projeto-item">
+          <div className="projeto-item-img">
+            <img src={onlineStore} alt="Projeto de uma loja online" />
           </div>
-          <div
-            className='projeto-item-body'
-            style={isCollapse ? { display: 'none' } : { display: 'block' }}
-          >
-              Uma simples aplicação de listar tarefas.
+          <div className="projeto-item-body">
+            Online Store é uma aplicação de compras online que foi desenvolvida
+            em ReactJS, utilizando API do MercadoLivre.
             <br />
-              Tecnologias: HTML, CSS e JavaScript
+            Tecnologias: ReactJS, React-Router-Dom, React-icons.
             <hr />
-            <div className='btn-project'>
+            <div className="btn-project">
               <a
-                href='https://github.com/Vitosoaresp/todolist'
-                target='_blank'
-                rel='noreferrer'
+                href="https://github.com/Vitosoaresp/online-store"
+                target="_blank"
+                rel="noreferrer"
               >
-                <button className='btn-github'>Repositório</button>
+                <button className="btn-repo">
+                  <VscGithubInverted />
+                  Repositório
+                </button>
+              </a>
+              <a
+                href="https://vitosoaresp.github.io/online-store/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn-ghpages">
+                  <GoDeviceDesktop />
+                  Aplicação
+                </button>
               </a>
             </div>
           </div>
         </div>
 
-        <div className='projeto-item'>
-          <div className='projeto-item-img'>
-            <img src={emBreve} alt='todolist exemplo' />
+        <div className="projeto-item">
+          <div className="projeto-item-img">
+            <img src={emBreve} alt="" />
           </div>
-          <div className='projeto-item-body'>
-              Em Breve
+          <div className="projeto-item-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <hr />
-            <div className='btn-project'>
-              <a href=''>
-                <button className='btn-github'>Repositório</button>
+            <div className="btn-project">
+              <a href="#" target="_blank" rel="noreferrer">
+                <button className="btn-repo">
+                  <VscGithubInverted />
+                  Repositório
+                </button>
+              </a>
+              <a href="#" target="_blank" rel="noreferrer">
+                <button className="btn-ghpages">
+                  <GoDeviceDesktop />
+                  Aplicação
+                </button>
               </a>
             </div>
           </div>
         </div>
 
-        <div className='projeto-item'>
-          <div className='projeto-item-img'>
-            <img src={emBreve} alt='todolist exemplo' />
+        <div className="projeto-item">
+          <div className="projeto-item-img">
+            <img src={emBreve} alt="" />
           </div>
-          <div className='projeto-item-body'>
-              Em Breve
+          <div className="projeto-item-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <br />
+            Modi omnis excepturi repellat nihil aut velit, maiores neque placeat
+            soluta.
             <hr />
-            <div className='btn-project'>
-              <a href=''>
-                <button className='btn-github'>Repositório</button>
+            <div className="btn-project">
+              <a
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn-repo">
+                  <VscGithubInverted />
+                  Repositório
+                </button>
+              </a>
+              <a href="#" target="_blank" rel="noreferrer">
+                <button className="btn-ghpages">
+                  <GoDeviceDesktop />
+                  Aplicação
+                </button>
               </a>
             </div>
           </div>
@@ -76,6 +106,5 @@ function Projetos() {
     </div>
   );
 }
-
 
 export default Projetos;
