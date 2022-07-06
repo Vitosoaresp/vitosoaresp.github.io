@@ -9,9 +9,9 @@ import './Habilidades.css';
 class Habilidades extends React.Component {
   render() {
     return (
-      <section className="habilidades-container">
-        <h2>TECNOLOGIAS</h2>
-        <div className="cards" id="habilidades">
+      <section className="habilidades-container" id="habilidades">
+        <h2>MINHAS SKILLS</h2>
+        <div className="cards">
           <CardHabilidade
             icon={<AiOutlineHtml5 />}
             nome="HTML5"

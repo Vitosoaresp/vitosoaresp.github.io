@@ -45,8 +45,12 @@
 }
 
 .contato-container .card .card-body .card-text {
-  color: grey;
-} 
+  color: #c2bebe;
+}
+
+.card-icon {
+  color: black;
+}
 
 @media screen and (max-width: 600px ) {
   

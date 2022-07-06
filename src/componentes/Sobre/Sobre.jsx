@@ -5,9 +5,9 @@ import './Sobre.css';
 
 function Sobre() {
   return (
-    <div className="sobre-container">
+    <div className="sobre-container" id="sobre">
       <p>Olá, Bem Vindo ao meu Portfolio!</p>
-      <div className="sobre-mim-container" id="sobre">
+      <div className="sobre-mim-container">
         <div className="foto-container">
           <img src={ minhaFoto } alt="self de Vitor Soares" width="120px" />
         </div>

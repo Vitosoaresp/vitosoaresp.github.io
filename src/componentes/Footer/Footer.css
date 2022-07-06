@@ -18,5 +18,6 @@
 }
 
 .footer-container a svg {
+  color: var(--btn-github);
   font-size: 45px;
 }

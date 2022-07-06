@@ -19,7 +19,7 @@ function Projetos() {
             Online Store é uma aplicação de compras online que foi desenvolvida
             em ReactJS, utilizando API do MercadoLivre.
             <br />
-            Tecnologias: ReactJS, React-Router-Dom, React-icons.
+            Tecnologias: React (Hooks e ContextAPI), React-Router-Dom, React-icons.
             <hr />
             <div className="btn-project">
               <a
@@ -48,7 +48,7 @@ function Projetos() {
 
         <div className="projeto-item">
           <div className="projeto-item-img">
-            <img src={emBreve} alt="" />
+            <img src={emBreve} alt="" width="100%" />
           </div>
           <div className="projeto-item-body">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -74,7 +74,7 @@ function Projetos() {
 
         <div className="projeto-item">
           <div className="projeto-item-img">
-            <img src={emBreve} alt="" />
+            <img src={emBreve} alt="" width="100%" />
           </div>
           <div className="projeto-item-body">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.

@@ -10,27 +10,27 @@ class Contato extends React.Component {
     return (
       <div id="contato" className="contato-container">
         <h2>Contato</h2>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} bg="dark" text="white">
           <Card.Body>
-            <Card.Title>{<BsPhoneFill />}</Card.Title>
+            <Card.Title><BsPhoneFill className="card-icon" /></Card.Title>
             <Card.Subtitle>TELEFONE</Card.Subtitle>
             <hr />
             <Card.Text>73 99944-6310</Card.Text>
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} bg="dark" text="white">
           <Card.Body>
-            <Card.Title>{<MdOutlineEmail />}</Card.Title>
+            <Card.Title><MdOutlineEmail className="card-icon" /></Card.Title>
             <Card.Subtitle>E-MAIL</Card.Subtitle>
             <hr />
             <Card.Text>pereiravitor1218@gmail.com</Card.Text>
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} bg="dark" text="white">
           <Card.Body>
-            <Card.Title>{<GrMapLocation />}</Card.Title>
+            <Card.Title><GrMapLocation className="card-icon" /></Card.Title>
             <Card.Subtitle>ENDEREÇO</Card.Subtitle>
             <hr />
             <Card.Text>Teixeira de Freitas - BA</Card.Text>
