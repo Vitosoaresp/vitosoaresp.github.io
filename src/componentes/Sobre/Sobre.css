@@ -1,5 +1,5 @@
 .sobre-container {
-  background-color: #1c1c21;
+  background-color: var(--black-3);
   display: flex;
   flex-direction: column;
   align-items: center;
