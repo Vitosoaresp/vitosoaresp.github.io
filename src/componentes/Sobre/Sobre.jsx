@@ -4,7 +4,7 @@ import minhaFoto from '../../fotos/vitor.png';
 
 function Sobre() {
   return (
-    <div className="bg-black-2 flex flex-col items-center pt-[150px] px-6 pb-52 w-full" id="sobre">
+    <div className="bg-black-2 flex flex-col items-center py-[150px] px-6 w-full" id="sobre">
       <p className="text-white text-center text-4xl font-semibold">Olá, Bem Vindo ao meu Portfolio!</p>
       <div className="flex items-center flex-col justify-center w-full md:flex-row md:mt-8" >
         <div className="md:self-start">

@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
+      boxShadow: {
+        '3xl': 'rgb(0 0 0 / 24%) 0px 3px 8px;',
+      },
     },
   },
   plugins: [],

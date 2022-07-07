@@ -4,14 +4,13 @@ import { SiCss3, SiRedux } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { CardHabilidade } from '../CardHabilidades/CardHabilidade';
 import { DiJavascript, DiGit } from 'react-icons/di';
-import './Habilidades.css';
 
 class Habilidades extends React.Component {
   render() {
     return (
-      <section className="habilidades-container" id="habilidades">
-        <h2>MINHAS SKILLS</h2>
-        <div className="cards">
+      <section className="bg-black-1 flex w-full justify-around flex-wrap p-10 flex-shrink-0" id="habilidades">
+        <h2 className="block text-white p-12 font-bold text-center w-full">MINHAS SKILLS</h2>
+        <div className="flex flex-wrap justify-center h-full">
           <CardHabilidade
             icon={<AiOutlineHtml5 />}
             nome="HTML5"
