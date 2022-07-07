@@ -7,15 +7,16 @@ import './Projetos.css';
 
 function Projetos() {
   return (
-    <div className="projetos-container" id="projetos">
-      <h3>Meus Projetos</h3>
+    <div className="flex items-center content-around bg-black-2 flex-wrap h-full p-10 justify-center w-full" id="projetos">
+      <h3 className="text-white block w-full p-8 text-center">Meus Projetos</h3>
       <hr />
-      <div className="projetos-grid">
-        <div className="projeto-item">
-          <div className="projeto-item-img">
-            <img src={onlineStore} alt="Projeto de uma loja online" />
+      <div className="flex flex-wrap justify-around h-full w-full">
+    
+        <div className="flex items-center bg-black-4 rounded flex-col justify-start md:w-[30%] w-4/5 min-w-[280px] md:mb-5 p-2 md:p-5 mb-0">
+          <div className="self-center min-w-[250px]">
+            <img src={onlineStore} alt="Projeto de uma loja online" className="rounded max-w-full max-h-[150px] object-contain" />
           </div>
-          <div className="projeto-item-body">
+          <div className="flex flex-col bg-black-4 rounded text-gray-400 items-center p-1 w-full text-center">
             Online Store é uma aplicação de compras online que foi desenvolvida
             em ReactJS, utilizando API do MercadoLivre.
             <br />

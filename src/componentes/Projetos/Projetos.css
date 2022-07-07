@@ -1,4 +1,4 @@
-.projetos-container {
+/* .projetos-container {
   align-items: center;
   align-content: space-around;
   background-color: #1c1c21;
@@ -8,9 +8,9 @@
   padding: 40px;
   justify-content: center;
   width: 100%;
-}
+} */
 
-.projetos-container h3 {
+/* .projetos-container h3 {
   color: white;
   display: block;
   width: 100%;
@@ -48,9 +48,9 @@
   max-height: 150px;
   max-width: 100%;
   object-fit: contain;
-}
+} */
 
-.projeto-item-body {
+/* .projeto-item-body {
   background-color: #16161a;
   border-radius: 1rem;
   color: #94a1b2;
@@ -60,7 +60,7 @@
   padding: 5px;
   transition: height 0.5s ease-in-out;
   width: 100%;
-}
+} */
 
 .btn-project {
   align-items: center;
