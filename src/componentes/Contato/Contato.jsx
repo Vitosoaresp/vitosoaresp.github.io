@@ -8,7 +8,7 @@ import './Contato.css';
 class Contato extends React.Component {
   render() {
     return (
-      <div id="contato" className="contato-container">
+      <div id="contato" className="">
         <h2>Contato</h2>
         <Card style={{ width: '18rem' }} bg="dark" text="white">
           <Card.Body>

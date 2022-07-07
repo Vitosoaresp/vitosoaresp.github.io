@@ -3,24 +3,5 @@
 @tailwind utilities;
 
 * {
-  padding: 0;
-  margin: 0;
-  vertical-align: baseline;
-  list-style: none;
-  border: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-background: #26262c;
-  --secundary-background: #131316;
-  --black-3: #1c1c21;
-  --btn-github: #8257e6;
-  --btn-github-hover: #6e3ce2;
-  --headline: #fffffe;
-  --paragraph: white;
+  @apply p-0  m-0 box-border font-roboto
 }

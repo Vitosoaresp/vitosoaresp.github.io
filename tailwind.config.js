@@ -4,7 +4,19 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'black-1': '#131316',
+        'black-2': '#1c1c21',
+        'black-3': '#26262c',
+        'btn-gihub': '#8257e6',
+        'btn-git-hover': '#6e3ce2',
+        'headline': '#fffffe',
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
