@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineHtml5 } from 'react-icons/ai';
-import { SiCss3, SiRedux } from 'react-icons/si';
+import { SiRedux, SiTailwindcss } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { CardHabilidade } from '../CardHabilidades/CardHabilidade';
 import { DiJavascript, DiGit } from 'react-icons/di';
@@ -18,10 +18,11 @@ class Habilidades extends React.Component {
             isAncora={false}
           />
           <CardHabilidade
-            icon={<SiCss3 />}
-            nome="CSS3"
-            descricao="É a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web."
-            isAncora={false}
+            icon={<SiTailwindcss />}
+            nome="Tailwind CSS"
+            descricao="Tailwind é um framework CSS que oferece a possibilidade de você criar layouts usando uma estrutura de CSS pronta. Isso permite que você otimize o tempo de criação de uma UI sem precisar fazer tudo manualmente."
+            isAncora={true}
+            href="https://tailwindcss.com/"
           />
           <CardHabilidade
             icon={<DiJavascript />}
