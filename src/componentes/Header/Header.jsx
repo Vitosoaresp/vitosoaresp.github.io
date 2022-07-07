@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../../fotos/logoName.svg';
-import './Header.css';
 
 function Header() {
   const [menuVisivel, setMenuVisivel] = useState(false);
