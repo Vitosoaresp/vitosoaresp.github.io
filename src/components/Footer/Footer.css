@@ -1,4 +1,4 @@
-.footer-container {
+/* .footer-container {
   align-items: flex-start;
   background-color: #26262C;
   display: flex;
@@ -10,8 +10,8 @@
 
 .footer-container div:nth-child( 1 ) {
   padding-top: 15px;
-}
-
+} */
+/* 
 .footer-container div p, .footer-container div p svg {
   color: white;
   font-size: 12px;
@@ -20,4 +20,4 @@
 .footer-container a svg {
   color: var(--btn-github);
   font-size: 45px;
-}
+} */

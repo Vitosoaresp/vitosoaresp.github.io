@@ -1,7 +1,6 @@
 import React from 'react';
 import emBreve from '../../fotos/embreve.PNG';
 import onlineStore from '../../fotos/online-store.png';
-import './Projetos.css';
 import { CardProjetos } from '../CardProjetos';
 
 function Projetos() {

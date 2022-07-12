@@ -31,7 +31,7 @@ function Header() {
           className="bg-transparent absolute right-10 top-12 hover:animate-spin md:hidden"
           onClick={() => setMenuVisivel(!menuVisivel)}
         >
-          <AiOutlineMenu className="text-white text-4xl hover:text-5xl" />
+          <AiOutlineMenu className="text-white text-4xl" />
         </button>
       </header>
       <div
