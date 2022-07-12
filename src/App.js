@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './componentes/Header/Header';
-import Sobre from './componentes/Sobre/Sobre';
-import Habilidades from './componentes/Habilidades/Habilidades';
-import Projetos from './componentes/Projetos/Projetos';
-import Contato from './componentes/Contato/Contato';
-import Footer from './componentes/Footer/Footer';
+import Header from './components/Header/Header';
+import Sobre from './components/Sobre/Sobre';
+import Habilidades from './components/Habilidades/Habilidades';
+import Projetos from './components/Projetos/Projetos';
+import Contato from './components/Contato/Contato';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +18,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
