@@ -9,7 +9,6 @@ function Projetos() {
       <h3 className="text-white block w-full p-8 text-center">Meus Projetos</h3>
       <hr />
       <div className="flex flex-wrap justify-around h-full w-full gap-2">
-
         <CardProjetos
           imageProjeto={onlineStore}
           titulo="Online Store"
