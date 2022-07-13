@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiGithub } from 'react-icons/fi';
-import minhaFoto from '../../fotos/vitor.png';
+import minhaFoto from '../fotos/vitor.png';
 
 function Sobre() {
   return (

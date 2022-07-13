@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from '../../fotos/logoName.svg';
+import logo from '../fotos/logoName.svg';
 
 function Header() {
   const [menuVisivel, setMenuVisivel] = useState(false);
   return (
     <>
-      <header className="flex bg-black-3 h-[100px] fixed top-0 left-0 justify-between w-full z-[1] items-center">
+      <header className="flex bg-black-3 h-[100px] fixed top-0 left-0 py-2 justify-between w-full z-[1] items-center">
         <img
           src={logo}
           alt="logo"

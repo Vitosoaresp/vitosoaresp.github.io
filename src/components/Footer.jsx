@@ -2,11 +2,9 @@ import React from 'react';
 import {
   AiFillLinkedin,
   AiOutlineCopyright,
-  AiFillInstagram,
   AiFillGithub,
 } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
-import './Footer.css';
 
 function Footer() {
   return (
@@ -35,14 +33,7 @@ function Footer() {
         >
           <AiFillGithub />
         </a>
-        <a
-          href="https://www.instagram.com/vitosoaresp/"
-          target="_blank"
-          rel="noreferrer"
-          className="no-underline text-btn-gihub text-5xl hover:text-btn-git-hover"
-        >
-          <AiFillInstagram />
-        </a>
+
         <a
           href="mailto:pereiravitor1218@gmail.com"
           target="_blank"

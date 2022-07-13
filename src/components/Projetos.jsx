@@ -1,7 +1,7 @@
 import React from 'react';
-import emBreve from '../../fotos/embreve.PNG';
-import onlineStore from '../../fotos/online-store.png';
-import { CardProjetos } from '../CardProjetos';
+import emBreve from '../fotos/embreve.PNG';
+import onlineStore from '../fotos/online-store.png';
+import { CardProjetos } from './CardProjetos';
 
 function Projetos() {
   return (
@@ -13,8 +13,8 @@ function Projetos() {
         <CardProjetos
           imageProjeto={onlineStore}
           titulo="Online Store"
-          descricao="é uma aplicação de compras online que foi desenvolvida
-          em ReactJS, utilizando API do MercadoLivre."
+          descricao="é um e-commerce foi desenvolvida
+          utilizando API do MercadoLivre."
           tecnologias="React (Hooks e ContextAPI), React-Router-Dom, React-icons."
           linkRepo="https://github.com/Vitosoaresp/online-store"
           linkAplicacao="https://vitosoaresp.github.io/online-store/"

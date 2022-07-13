@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Sobre from './components/Sobre/Sobre';
-import Habilidades from './components/Habilidades/Habilidades';
-import Projetos from './components/Projetos/Projetos';
-import Contato from './components/Contato/Contato';
-import Footer from './components/Footer/Footer';
+import Header from './components/Header';
+import Sobre from './components/Sobre';
+import Habilidades from './components/Habilidades';
+import Projetos from './components/Projetos';
+import Contato from './components/Contato';
+import Footer from './components/Footer';
 
 function App() {
   return (

@@ -2,14 +2,19 @@ import React from 'react';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import { SiRedux, SiTailwindcss } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
-import { CardHabilidade } from '../CardHabilidades/CardHabilidade';
+import { CardHabilidade } from './CardHabilidade';
 import { DiJavascript, DiGit } from 'react-icons/di';
 
 class Habilidades extends React.Component {
   render() {
     return (
-      <section className="bg-black-1 flex w-full justify-around flex-wrap p-10 flex-shrink-0" id="habilidades">
-        <h2 className="block text-white p-12 font-bold text-center w-full">MINHAS SKILLS</h2>
+      <section
+        className="bg-black-1 flex w-full justify-around flex-wrap p-10 flex-shrink-0"
+        id="habilidades"
+      >
+        <h2 className="block text-white p-12 font-bold text-center w-full">
+          MINHAS SKILLS
+        </h2>
         <div className="flex flex-wrap justify-center h-full">
           <CardHabilidade
             icon={<AiOutlineHtml5 />}
@@ -17,13 +22,7 @@ class Habilidades extends React.Component {
             descricao="É uma linguagem de marcação utilizada na construção de páginas na Web."
             isAncora={false}
           />
-          <CardHabilidade
-            icon={<SiTailwindcss />}
-            nome="Tailwind CSS"
-            descricao="Tailwind é um framework CSS que oferece a possibilidade de você criar layouts usando uma estrutura de CSS pronta. Isso permite que você otimize o tempo de criação de uma UI sem precisar fazer tudo manualmente."
-            isAncora={true}
-            href="https://tailwindcss.com/"
-          />
+
           <CardHabilidade
             icon={<DiJavascript />}
             nome="JavaScript"
@@ -36,6 +35,13 @@ class Habilidades extends React.Component {
             descricao="O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
             isAncora={true}
             href="https://pt-br.reactjs.org/"
+          />
+          <CardHabilidade
+            icon={<SiTailwindcss />}
+            nome="Tailwind CSS"
+            descricao="Tailwind é um framework CSS que oferece a possibilidade de você criar layouts usando uma estrutura de CSS pronta. Isso permite que você otimize o tempo de criação de uma UI sem precisar fazer tudo manualmente."
+            isAncora={true}
+            href="https://tailwindcss.com/"
           />
           <CardHabilidade
             icon={<SiRedux />}
@@ -55,6 +61,6 @@ class Habilidades extends React.Component {
       </section>
     );
   }
-} 
+}
 
 export default Habilidades;
