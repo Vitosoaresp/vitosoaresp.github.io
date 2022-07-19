@@ -1,7 +1,7 @@
 # Meu portfólio 
 
- > www.GitHub.io/vitosoaresp
+ > https://vitosoaresp.github.io/
 
-## Tecnologias:
+## Tecnologias utilizadas:
  
- > React,Taiwilnd CSS
+ > React, React-icons, Taiwilnd CSS, Bootstrap, Phosphor-Icons 
