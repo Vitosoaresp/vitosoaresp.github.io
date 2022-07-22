@@ -23,7 +23,7 @@ function Projetos() {
         <CardProjetos
           imageProjeto={recipesapp}
           titulo="Recipes App"
-          descricao="trata-se de um site mobile de receitas."
+          descricao="trata-se de um app mobile de receitas."
           tecnologias="React, React-Icons, React-Router-Dom"
           linkRepo="https://github.com/Vitosoaresp/recipes-app"
           linkAplicacao="https://recipes-app-five-rosy.vercel.app/"
