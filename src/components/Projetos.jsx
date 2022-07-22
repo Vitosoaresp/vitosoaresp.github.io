@@ -9,15 +9,6 @@ function Projetos() {
       <h3 className="text-white block w-full p-8 text-center">PROJETOS</h3>
       <hr />
       <div className="flex flex-wrap justify-around h-full w-full gap-2">
-        <CardProjetos
-          imageProjeto={onlineStore}
-          titulo="Online Store"
-          descricao="é um e-commerce foi desenvolvida
-          utilizando API do MercadoLivre."
-          tecnologias="React (Hooks e ContextAPI), React-Router-Dom, React-icons."
-          linkRepo="https://github.com/Vitosoaresp/online-store"
-          linkAplicacao="https://vitosoaresp.github.io/online-store/"
-        />
 
         <CardProjetos
           imageProjeto={emBreve}
@@ -26,6 +17,16 @@ function Projetos() {
           tecnologias="lorem ipsum dolor sit amet consectetur adipisicing elit."
           linkRepo="#"
           linkAplicacao="#"
+        />
+
+        <CardProjetos
+          imageProjeto={onlineStore}
+          titulo="Online Store"
+          descricao="é um e-commerce foi desenvolvida
+          utilizando API do MercadoLivre."
+          tecnologias="React (Hooks e ContextAPI), React-Router-Dom, React-icons."
+          linkRepo="https://github.com/Vitosoaresp/online-store"
+          linkAplicacao="https://vitosoaresp.github.io/online-store/"
         />
 
         <CardProjetos
