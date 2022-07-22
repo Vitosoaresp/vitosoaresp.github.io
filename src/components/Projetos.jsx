@@ -1,6 +1,7 @@
 import React from 'react';
 import emBreve from '../fotos/embreve.PNG';
 import onlineStore from '../fotos/online-store.png';
+import rocketnfts from '../fotos/rocketnfts.jpeg';
 import { CardProjetos } from './CardProjetos';
 
 function Projetos() {
@@ -11,18 +12,18 @@ function Projetos() {
       <div className="flex flex-wrap justify-around h-full w-full gap-2">
 
         <CardProjetos
-          imageProjeto={emBreve}
-          titulo="em breve"
-          descricao="lorem ipsum dolor ipsum sit ipsum amet consectetur adipisicing elit."
-          tecnologias="lorem ipsum dolor sit amet consectetur adipisicing elit."
-          linkRepo="#"
-          linkAplicacao="#"
+          imageProjeto={rocketnfts}
+          titulo="Rocket Nfts"
+          descricao="foi um desafio da rocketseat de fazer uma landing page de NFTs"
+          tecnologias="Typescript, React, Tailwind CSS e PhosphorIcons"
+          linkRepo="https://github.com/Vitosoaresp/rocketnfts"
+          linkAplicacao="https://vitosoaresp.github.io/rocketnfts/"
         />
 
         <CardProjetos
           imageProjeto={onlineStore}
           titulo="Online Store"
-          descricao="é um e-commerce foi desenvolvida
+          descricao="é um e-commerce, que foi desenvolvido
           utilizando API do MercadoLivre."
           tecnologias="React (Hooks e ContextAPI), React-Router-Dom, React-icons."
           linkRepo="https://github.com/Vitosoaresp/online-store"
