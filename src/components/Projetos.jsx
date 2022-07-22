@@ -1,7 +1,7 @@
 import React from 'react';
-import emBreve from '../fotos/embreve.PNG';
 import onlineStore from '../fotos/online-store.png';
 import rocketnfts from '../fotos/rocketnfts.jpeg';
+import recipesapp from '../fotos/recipesapp.png';
 import { CardProjetos } from './CardProjetos';
 
 function Projetos() {
@@ -21,6 +21,15 @@ function Projetos() {
         />
 
         <CardProjetos
+          imageProjeto={recipesapp}
+          titulo="Recipes App"
+          descricao="trata-se de um site mobile de receitas."
+          tecnologias="React, React-Icons, React-Router-Dom"
+          linkRepo="https://github.com/Vitosoaresp/recipes-app"
+          linkAplicacao="https://recipes-app-five-rosy.vercel.app/"
+        />
+
+        <CardProjetos
           imageProjeto={onlineStore}
           titulo="Online Store"
           descricao="é um e-commerce, que foi desenvolvido
@@ -28,15 +37,6 @@ function Projetos() {
           tecnologias="React (Hooks e ContextAPI), React-Router-Dom, React-icons."
           linkRepo="https://github.com/Vitosoaresp/online-store"
           linkAplicacao="https://vitosoaresp.github.io/online-store/"
-        />
-
-        <CardProjetos
-          imageProjeto={emBreve}
-          titulo="em breve"
-          descricao="lorem ipsum dolor ipsum sit ipsum amet consectetur adipisicing elit."
-          tecnologias="lorem ipsum dolor sit amet consectetur adipisicing elit."
-          linkRepo="#"
-          linkAplicacao="#"
         />
 
       </div>
