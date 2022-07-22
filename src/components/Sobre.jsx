@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillLinkedin } from 'react-icons/ai';
 import { FiGithub } from 'react-icons/fi';
 import minhaFoto from '../fotos/vitor.png';
 
@@ -13,8 +14,10 @@ function Sobre() {
         <div className="flex items-center flex-col w-full md:ml-20 md:w-1/2">
           <p className="text-center text-base mb-8 text-white">Me chamo Vitor tenho 18 anos e sou desenvolvedor Front-end
             <br />
-          atualmente estou cursando Desenvolvimento Web Full Stack na Trybe.</p>
-          <div>
+          atualmente estou cursando Desenvolvimento Web Full Stack na Trybe.
+            <br />
+          Para saber mais sobre mim me encontre no linkedin abaixo.</p>
+          <div className="flex items-center gap-4">
             <a
               href='https://github.com/Vitosoaresp'
               target='_blank'
@@ -23,6 +26,9 @@ function Sobre() {
             >
               <FiGithub />
               MEU GITHUB
+            </a>
+            <a href="https://www.linkedin.com/in/vitorsoaresp/" target="_blank" rel="noopener noreferrer">
+              <AiFillLinkedin className="text-6xl" />
             </a>
           </div>
         </div>
