@@ -6,7 +6,7 @@ import { CardProjetos } from './CardProjetos';
 function Projetos() {
   return (
     <div className="flex items-center content-around bg-black-2 flex-wrap h-full p-10 justify-center w-full" id="projetos">
-      <h3 className="text-white block w-full p-8 text-center">Meus Projetos</h3>
+      <h3 className="text-white block w-full p-8 text-center">PROJETOS</h3>
       <hr />
       <div className="flex flex-wrap justify-around h-full w-full gap-2">
         <CardProjetos
