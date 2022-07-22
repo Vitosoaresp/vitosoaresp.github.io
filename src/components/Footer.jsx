@@ -10,10 +10,9 @@ function Footer() {
   return (
     <footer className="bg-black-3 flex items-center flex-col justify-center h-32 pl-5">
       <div className="pt-4 w-full text-start">
-        <p className="text-white text-xs">
+        <p className="text-white text-xs flex items-center gap-1">
           <AiOutlineCopyright className="text-white text-xs" />
-          <span> </span>
-            2022, Vitor Soares
+          2022, Feito com React, Tailwind CSS e <span className="text-red-1">❤</span> por Vitor Soares
         </p>
       </div>
       <div className="flex w-full justify-start">
