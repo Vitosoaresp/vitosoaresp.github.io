@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9848aca4.css",
-    "main.js": "/static/js/main.2b7f5bbe.js",
+    "main.css": "/static/css/main.ab4c3050.css",
+    "main.js": "/static/js/main.1c4c00e4.js",
     "static/media/vitor.png": "/static/media/vitor.625247e8098899acc99d.png",
+    "static/media/recipesapp.png": "/static/media/recipesapp.759ea9e8af159079191e.png",
+    "static/media/rocketnfts.jpeg": "/static/media/rocketnfts.006004d3a48b71a70557.jpeg",
     "static/media/online-store.png": "/static/media/online-store.cf28a0810ce2c5fd1133.png",
     "static/media/logoName.svg": "/static/media/logoName.03e80009b7cd0bb6331e7560a7c984bb.svg",
-    "static/media/embreve.PNG": "/static/media/embreve.f6eedfaf56d21fffb178.PNG",
     "index.html": "/index.html",
-    "main.9848aca4.css.map": "/static/css/main.9848aca4.css.map",
-    "main.2b7f5bbe.js.map": "/static/js/main.2b7f5bbe.js.map"
+    "main.ab4c3050.css.map": "/static/css/main.ab4c3050.css.map",
+    "main.1c4c00e4.js.map": "/static/js/main.1c4c00e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9848aca4.css",
-    "static/js/main.2b7f5bbe.js"
+    "static/css/main.ab4c3050.css",
+    "static/js/main.1c4c00e4.js"
   ]
 }
