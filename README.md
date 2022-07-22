@@ -4,4 +4,4 @@
 
 ## Tecnologias utilizadas:
  
- > React, React-icons, Taiwilnd CSS, Bootstrap, Phosphor-Icons 
+ > React, React-icons, Taiwilnd CSS, Bootstrap
